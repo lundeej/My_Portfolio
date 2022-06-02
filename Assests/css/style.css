@@ -1,0 +1,11 @@
+body {
+    background; #EFEFEF;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1 0 0%;
+}
