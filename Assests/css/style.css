@@ -9,3 +9,16 @@ body {
 .col {
     flex: 1 0 0%;
 }
+.nav {
+    justify-content: right;
+    align-items: center;
+}
+.nav .col {
+    flex-grow: 0;
+    padding: 1rem;  
+}
+
+.nav a:hover {
+    background-color: black;
+    color: #fff;
+}
