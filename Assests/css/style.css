@@ -1,5 +1,5 @@
 body {
-    background; #EFEFEF;
+    background: #EFEFEF;
 }
 
 .row {
@@ -20,7 +20,7 @@ body {
     padding: 1rem;  
 }
 
-.nav a:hover {
+.nav a::hover {
     background-color: black;
     color: #fff;
 }
