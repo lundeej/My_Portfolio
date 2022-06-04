@@ -8,7 +8,7 @@ body {
 header {
     background-color: #3d3d3d;
     color: #EAE9E5;
-}   
+}
 
 main {
     display: flex;
@@ -30,14 +30,10 @@ nav {
 
 nav .col {
     flex-grow: 0;
-    padding: 1rem;  
+    padding: 1rem;
     color: #EAE9E5;
     border-style: solid;
     align-items: center;
-}
-
-nav a {
-    
 }
 
 nav a:hover{
@@ -56,20 +52,15 @@ section {
 }
 
 aside {
-    flex: 30%;
     background-color: #C48F7F;
-    padding: 20px;
-    flex-wrap: wrap;
     margin-left: 0px;
     float: left;
-    display: block;
 }
 
 .card {
-    flex: 1 0 200px;
-    padding: 10px;
-    text-align: center;
-    border-width: 1px;
+    text-align: left;
+    margin-left: 100px; 
+    padding-left: 10%;
 }
 
 @media screen and (max-width: 768px) {
@@ -81,7 +72,7 @@ aside {
     nav .col {
         min-width: 100vw;
     }
-    
+
     aside {
         order: 2;
     }
