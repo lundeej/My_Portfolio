@@ -26,6 +26,8 @@ main {
 
 nav {
     text-align: right;
+    display: flex;
+    background-color: #3d3d3d;
 }
 
 nav .col {
@@ -33,7 +35,11 @@ nav .col {
     padding: 1rem;
     color: #EAE9E5;
     border-style: solid;
-    align-items: center;
+    align-items: center;    
+}
+
+nav a {
+    justify-content: center;
 }
 
 nav a:hover{
