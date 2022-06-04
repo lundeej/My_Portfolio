@@ -1,5 +1,14 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background: #EAE9E5;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
 }
 
 .row {
@@ -29,6 +38,8 @@ section {
     flex: 70%;
     background-color: #F4DDD5;
     padding: 20px;
+    display: block;
+    align-items: flex-start;
 }
 
 aside {
@@ -36,4 +47,19 @@ aside {
     background-color: #C48F7F;
     padding: 20px;
     flex-wrap: wrap;
+    margin-left: 15px;
+    float: left;
+    display: block;
+}
+
+.card {
+    flex: 1 0 200px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+
+aside {
+    order: 2;
 }
