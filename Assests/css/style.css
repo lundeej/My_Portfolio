@@ -1,5 +1,5 @@
 body {
-    background: #efefef;
+    background: #EAE9E5;
 }
 
 .row {
@@ -22,5 +22,18 @@ nav .col {
 
 nav a:hover{
     background-color: black;
-    color: #fff;
+    color: #222D44;
+}
+
+section {
+    flex: 70%;
+    background-color: #F4DDD5;
+    padding: 20px;
+}
+
+aside {
+    flex: 30%;
+    background-color: #C48F7F;
+    padding: 20px;
+    flex-wrap: wrap;
 }
