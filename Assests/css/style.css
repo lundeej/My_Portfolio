@@ -5,6 +5,11 @@ body {
     background: #EAE9E5;
 }
 
+header {
+    background-color: #3d3d3d;
+    color: #EAE9E5;
+}   
+
 main {
     display: flex;
     flex-wrap: wrap;
@@ -20,18 +25,24 @@ main {
 }
 
 nav {
-    justify-content: right;
-    align-items: center;
+    text-align: right;
 }
 
 nav .col {
     flex-grow: 0;
     padding: 1rem;  
+    color: #EAE9E5;
+    border-style: solid;
+    align-items: center;
+}
+
+nav a {
+    
 }
 
 nav a:hover{
     background-color: black;
-    color: #222D44;
+    color: #C48F7F;
 }
 
 section {
@@ -61,6 +72,17 @@ aside {
     border-width: 1px;
 }
 
-aside {
-    order: 2;
+@media screen and (max-width: 768px) {
+    /* Flex-direction to stak the nav bard, sidebard and body */
+    header, nav {
+        flex-direction: column;
+        display: inline;
+    }
+    nav .col {
+        min-width: 100vw;
+    }
+    
+    aside {
+        order: 2;
+    }
 }
