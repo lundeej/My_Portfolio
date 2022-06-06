@@ -23,19 +23,21 @@ main {
 
 .col {
     flex: 1 0 0%;
-    text-align: right;  
 }
 
 nav {
-    display: flex;
     background-color: #EAE9E5;
+    float: right;
+    min-height: 50px;
+    min-width: 100px;
+    display: inline;
 }
 
-nav .col {
+nav a {    
     flex-grow: 0;
     padding: 1rem;
     color: #C48F7F;
-    min-width: 100px;
+    text-align: center;
 }
 
 /* When hovering adding color selected page*/
@@ -64,4 +66,11 @@ aside {
     text-align: left;
     padding-left: 10%;
     min-width: 100vw;
+}
+
+@media screen and (max-width: 786px) {
+    /* Using flex-direction to stack the navagation bar when screen is small*/
+    nav a {
+        display: block;
+    }
 }
