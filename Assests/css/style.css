@@ -8,6 +8,7 @@ body {
 header {
     background-color: #3d3d3d;
     color: #EAE9E5;
+    text-align: center;
 }
 
 main {
@@ -22,6 +23,7 @@ main {
 
 .col {
     flex: 1 0 0%;
+    text-align: right;  
 }
 
 nav {
@@ -43,12 +45,11 @@ nav a:hover{
 }
 
 section {
-    flex: 70%;
     background-color: #F4DDD5;
-    margin: 0;
-    padding: 0px;
+}
+
+article {
     display: block;
-    align-items: flex-start;
 }
 
 aside {
@@ -56,6 +57,7 @@ aside {
     margin-left: 0px;
     float: left;
     min-width: 200px;
+    text-align: center;
 }
 
 .card {
