@@ -26,24 +26,20 @@ main {
 
 nav {
     display: flex;
-    background-color: #3d3d3d;
+    background-color: #EAE9E5;
 }
 
 nav .col {
     flex-grow: 0;
     padding: 1rem;
-    color: #EAE9E5;
-    border-style: solid;
-    align-items: center;    
-}
-
-nav a {
-    justify-content: center;
-}
-
-nav a:hover{
-    background-color: black;
     color: #C48F7F;
+    min-width: 100px;
+}
+
+/* When hovering adding color selected page*/
+nav a:hover{
+    background-color: #222d44;
+    color: #EAE9E5;
 }
 
 section {
@@ -53,17 +49,17 @@ section {
     padding: 0px;
     display: block;
     align-items: flex-start;
-    min-width: 100vw;
 }
 
 aside {
     background-color: #C48F7F;
     margin-left: 0px;
     float: left;
+    min-width: 200px;
 }
 
 .card {
     text-align: left;
-    margin-left: 100px; 
     padding-left: 10%;
+    min-width: 100vw;
 }
