@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Optima';
+    margin: 0;
+}
+
+header {
+    padding: 40px;
+    text-align: center;
+    background-color: #EAE9E5;
+    color: #222d44cf;
+}
+
+nav {
+    display: flex;
+    background-color: #c48f7f65;
+}
+
+nav a {
+    color: #222d44cf;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#profile {
+    background-color: #222d44cf;
+    width: 10%;
+    float: right;
+}
+
+.title {
+    
+}
