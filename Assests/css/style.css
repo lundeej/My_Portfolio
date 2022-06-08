@@ -17,13 +17,20 @@ header {
 nav {
     display: flex;
     background-color: #c48f7f65;
+    float: right;
 }
 
-nav a {
+.nava {
     color: #222d44cf;
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
+}
+
+/* Adding effect when hovering over navagation links */
+a:hover {
+    color: #c48f7f;
+    background-color: #222d44cf;
 }
 
 main {
@@ -38,5 +45,10 @@ main {
 }
 
 .title {
-    
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    align-items: center;
 }
