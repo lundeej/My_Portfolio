@@ -46,12 +46,12 @@ main {
     display: flex;
     flex-wrap: wrap;
     align-items: center;    
+    text-align: center;
 }
 
 #profile {
-    background-color: #222d44cf;
     width: 10%;
-    float: right;
+    position: relative;
 }
 
 .title {
@@ -61,6 +61,28 @@ main {
 section {
     padding: 20px;
     align-items: center;
+}
+
+article {
+    background-color: #EAE9E5;
+    border: 1px, solid, #222d44cf;
+}
+
+.blank-title {
+    background-color: #c48f7f;
+    border: 1px, solid black;
+    text-align: center;
+}
+
+/* Hoving over work title to access link, making effect */
+
+.blank-title:hover {
+    color: #c48f7f;
+    background-color: #EAE9E5;
+}
+
+.imagework {
+    width: 50%;
 }
 
 /* Adding effect when hovering over navagation links */
