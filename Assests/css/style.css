@@ -32,7 +32,7 @@ nav a {
 }
 
 #bannerimage {
-    width: 100%;
+    width: 100vw;
     height: 200px;
 }
 
@@ -40,13 +40,6 @@ nav a {
     position: absolute;
     bottom: 8px;
     right: 16px;
-}
-
-main {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;    
-    text-align: center;
 }
 
 #profile {
@@ -58,19 +51,25 @@ main {
     text-align: center;
 }
 
-section {
+main {
+    display: flex;
     padding: 20px;
     align-items: center;
+    margin-left: 0;
+    text-align: center;
+    flex-wrap: wrap;
 }
 
-article {
+section {
     background-color: #EAE9E5;
     border: 1px, solid, #222d44cf;
+    width: 97vw;
+    justify-content: center;
 }
 
 .blank-title {
     background-color: #c48f7f;
-    border: 1px, solid black;
+    border: 1px, solid, black;
     text-align: center;
 }
 
@@ -82,7 +81,8 @@ article {
 }
 
 .imagework {
-    width: 50%;
+    flex-wrap: wrap;
+    width: 50vw;
 }
 
 /* Adding effect when hovering over navagation links */
@@ -97,3 +97,4 @@ a:hover {
         flex-direction: column;
     }
 }
+
